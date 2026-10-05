@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Tarafas</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <main>
+            <h1>Minha tarafas</h1>
+            <form id="form-tarefa">
+                <input nome="titulo" placeholder="Título"
+                       required minlength="3" maxlength="100"/>
+                <input name="prioridede" type="number"
+                       min="1" max="5" value="1" required />
+                <button>Adicionar</button>
+            </form>
+            <p id="mensagem"></p>
+            <ul id="lista"></ul>   
+        </main>
+        <script src="script.js"></script>
+    </body>
+    </html>
